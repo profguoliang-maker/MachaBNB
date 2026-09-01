@@ -1,0 +1,28 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="machabnbLogoTitle">
+  <title id="machabnbLogoTitle">MachaBNB — Karibu Arch mark</title>
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e9d29a"/>
+      <stop offset="55%" stop-color="#c9a24a"/>
+      <stop offset="100%" stop-color="#a9822f"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="20%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#54101c"/>
+      <stop offset="100%" stop-color="#2b070d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- badge -->
+  <circle cx="64" cy="64" r="62" fill="url(#bgGrad)"/>
+  <circle cx="64" cy="64" r="59.5" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+  <circle cx="64" cy="64" r="53" fill="none" stroke="#c9a24a" stroke-opacity="0.35" stroke-width="1"/>
+
+  <!-- Karibu Arch: twin doorway arches forming a welcoming M -->
+  <path d="M34 88V60C34 44.536 46.536 32 62 32H64C79.464 32 92 44.536 92 60V88"
+        fill="none" stroke="url(#goldGrad)" stroke-width="4.6" stroke-linecap="round"/>
+  <path d="M47 88V62C47 53.163 54.163 46 63 46C71.837 46 79 53.163 79 62V88"
+        fill="none" stroke="url(#goldGrad)" stroke-width="4.6" stroke-linecap="round"/>
+
+  <!-- keystone accent -->
+  <circle cx="63" cy="30" r="3.6" fill="url(#goldGrad)"/>
+</svg>
